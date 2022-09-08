@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "API for taks manager project",
   "main": "index.js",
+  "engines": {
+    "node": "16.17"
+  },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Rodrigo",
   "license": "ISC",
